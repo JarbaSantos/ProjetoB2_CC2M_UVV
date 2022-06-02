@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<title>Ukraine Together</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-black">Fechar
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="https://www.youtube.com/watch?v=F9wZ3re57F4" class="w3-bar-item w3-button">Crianças deixadas para tras</a>
+  <a href="https://www.youtube.com/watch?v=OO805w5BG2M" class="w3-bar-item w3-button">Crianças feridas</a>
+  <a href="https://www.youtube.com/watch?v=tevlXvLFY_k" class="w3-bar-item w3-button">Crianças separadas</a>
+  <a href="https://www.youtube.com/watch?v=8Lzm5QoFN7I" class="w3-bar-item w3-button">Jornalista morre</a>
+  <a href="https://www.youtube.com/watch?v=scwCGABmRo4" class="w3-bar-item w3-button">Guerra</a>
+</nav>
+  <center><img src="imgs/logo.png" alt="Logo"></center>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-blue"><i class="fa fa-home w3-margin-right"></i>Inicio</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Patrocinadores</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Situação</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Ajude</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contato</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Sites <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://www.youtube.com/watch?v=gc8OeDCwaQA" class="w3-bar-item w3-button">Abrigos para mulheres</a>
+      <a href="#" class="w3-bar-item w3-button">Ultimas noticias</a>
+      <a href="#" class="w3-bar-item w3-button">Homenagens</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-blue" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Patrocinadores</a>
+    <a href="#work" class="w3-bar-item w3-button">Situação</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Ajude</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+    <a href="#" class="w3-bar-item w3-button">Procurar</a>
+  </div>
+</div>
+
+<!-- Image Header 
+<div class="w3-display-container w3-animate-opacity">
+  <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
+  </div>
+</div> -->
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Patrocinadores</h2>
+<p>Conheça nossos patrocinadores:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="imgs/Airbnb.png" alt="Boss" style="width:23%" >
+  <h3>Airbnb</h3>
+  <p>Hospedagem</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="imgs/ems.png" alt="Boss" style="width:35%" >
+  <h3>EMS</h3>
+  <p>Medicamentos</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="imgs/ifood.png" alt="Boss" style="width:45%" >
+  <h3>iFood</h3>
+  <p>Mantimentos</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="imgs/uber2.png" alt="Boss" style="width:27%" >
+  <h3>Uber</h3>
+  <p>Viagens</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Situação na Ucrânia</h2>
+<p>A crise na Ucrânia está forçando as pessoas a fugirem de suas casas. Ajuda é necessária, famílias na Ucrânia precisam de abrigo e ajuda de emergência. Você pode ajudar de diversas formas, dando abrigo a elas em nosso site de abrigos ukrainetogether/houses.com ou doando para ajudar !</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="imgs/kid1.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>Crianças desabrigadas</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="imgs/kid2.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Famílias desfeitas</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="imgs/ucrania.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Sonhos desfeitos</h3>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-yellow"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>Ajude</h2>
+    <p>Ajude doando para familias.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">DOE</p>
+        </li>
+        <li class="w3-padding-16"><b>Cobertores</b></li>
+        <li class="w3-padding-16"><b>Travesseiros</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-dollar"></i> 10</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-yellow w3-padding-large"><i class="fa fa-check"></i> Doar agora!</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">DOE</p>
+        </li>
+        <li class="w3-padding-16"><b>Mantimentos</b></li>
+        <li class="w3-padding-16"><b>Medicamentos</b></li>
+        <li class="w3-padding-16"><b>Colchão</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-yellow w3-padding-large"><i class="fa fa-check"></i> Doar agora!</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">DOE</p>
+        </li>
+        <li class="w3-padding-16"><b>Mantimentos</b></li>
+        <li class="w3-padding-16"><b>Medicamentos</b></li>
+        <li class="w3-padding-16"><b>Brinquedos</b></li>
+        <li class="w3-padding-16"><b>Roupas</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i>100</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-yellow w3-padding-large"><i class="fa fa-check"></i> Doar agora!</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-blue w3-bottombar">Contact Us</span></div>
+      <h3>Endereço</h3>
+      <p>Deseja ajudar trabalhando conosco ? venha nos visitar !</p>
+      <p><i class="fa fa-map-marker w3-text-blue w3-xlarge"></i>  Espirito Santo, BR</p>
+      <p><i class="fa fa-phone w3-text-blue w3-xlarge"></i>  +55 (28)992760281</p>
+      <p><i class="fa fa-envelope-o w3-text-blue w3-xlarge"></i>  uktogether@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Nome</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Mande uma mensagem</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Li">
+      <label>Eu li e concordo com os termos de uso</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+
+<div id="map"></div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Siga a gente</h4>
+  <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-blue" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-blue" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-yellow w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Feito por <a href="https://www.instagram.com/jarbas_santoshk/" target="_blank">@jarbas_santoshk</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-yellow w3-hide-small">Para o topo</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
